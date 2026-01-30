@@ -38,12 +38,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Metallicness: 0.68
+    - _Metallicness: 0.58
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.82
+    - _Smoothness: 1
     m_Colors:
-    - _MainCol: {r: 0, g: 0.057555035, b: 1, a: 0.87058824}
+    - _MainCol: {r: 0, g: 0.05755496, b: 1, a: 0.8862745}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7815552375750535406

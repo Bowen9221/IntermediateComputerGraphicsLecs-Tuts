@@ -63,7 +63,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO_Scale: 0.001
-    - _HeightScale: 9
+    - _HeightScale: 12.5
     - _Metallic_Scale: 0
     - _Normal: 0.001
     - _QueueControl: 0

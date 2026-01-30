@@ -63,11 +63,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO_Scale: 0.001
-    - _HeightScale: 7
+    - _HeightScale: 5.74
     - _Metallic_Scale: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RoughScale: 0.39
+    - _RoughScale: 1
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

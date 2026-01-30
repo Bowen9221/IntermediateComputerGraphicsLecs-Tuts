@@ -1,0 +1,1452 @@
+fileFormatVersion: 2
+guid: 1ccf0608e9db67e448d68ba54ce1e225
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MI_Xeno_Body_BaseColor
+    second: {fileID: 2100000, guid: b0a8ab07509ec5f44a4e7c9180d89181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MI_Xeno_HeadCap_BaseColor
+    second: {fileID: 2100000, guid: d96905b0b35ea0f43b151c51595bff20, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'alien_xenos_drone_SK_Xenos_Drone_skeleton|attack1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'XenosBiped_Spine_01SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Spine_02SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Spine_03SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Neck_TopSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_r_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Arm_ClavicleSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_r_Arm_ClavicleSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|attack2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_01SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_02SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_r_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|die' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_01SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_02SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_Neck_TopSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|idle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|kill1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_l_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_r_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|kill2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_UpperLip_AuxSHJnt'
+      has translation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|run1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_01SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'alien_xenos_drone_SK_Xenos_Drone_skeleton|walk' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'XenosBiped_Spine_01SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_02SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_03SHJnt' has translation
+      animation that will be discarded.\n\t'XenosBiped_Spine_TopSHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_l_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'XenosBiped_r_Leg_Knee2_CurveSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: XenosBiped_ROOTSHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Leg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Leg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Leg_Knee1SHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Leg_Knee1SHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Leg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Leg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Neck_TopSHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Arm_ClavicleSHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Arm_ClavicleSHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Arm_ShoulderSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Arm_ShoulderSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Arm_Elbow_CurveSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Arm_Elbow_CurveSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Arm_WristSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Arm_WristSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Toe02_Base_SHJnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Toe02_Base_SHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_UpperLip_AuxSHJnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_UpperLip_AuxSHJnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Thumb_01_01SHJnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Thumb_01_02SHJnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Thumb_01_03SHJnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_01_01SHJnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_01_02SHJnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_01_03SHJnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_02_01SHJnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_02_02SHJnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_02_03SHJnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_03_01SHJnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_03_02SHJnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_l_Finger_03_03SHJnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Thumb_01_01SHJnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Thumb_01_02SHJnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Thumb_01_03SHJnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_01_01SHJnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_01_02SHJnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_01_03SHJnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_02_01SHJnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_02_02SHJnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_02_03SHJnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_03_01SHJnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_03_02SHJnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_r_Finger_03_03SHJnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: XenosBiped_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Xenomorph Default(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alien_xenos_drone_SK_Xenos_Drone
+      parentName: Xenomorph Default(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: alien_xenos_drone_SK_Xenos_Drone_skeleton
+      parentName: Xenomorph Default(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: XenosBiped_TrajectorySHJnt
+      parentName: alien_xenos_drone_SK_Xenos_Drone_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: XenosBiped_ROOTSHJnt
+      parentName: XenosBiped_TrajectorySHJnt
+      position: {x: 7.952256e-14, y: 0.060102217, z: 1.5592062}
+      rotation: {x: 0.04358235, y: 0.7057625, z: 0.04358235, w: 0.7057624}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: XenosBiped_Spine_01SHJnt
+      parentName: XenosBiped_ROOTSHJnt
+      position: {x: -0.13388817, y: 0.000000046640633, z: -0.000000016391278}
+      rotation: {x: -0, y: -0, z: 0.0000000018626449, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+    - name: XenosBiped_Spine_02SHJnt
+      parentName: XenosBiped_Spine_01SHJnt
+      position: {x: -0.13388798, y: -0.00000010132789, z: 0.000000007152557}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: XenosBiped_Spine_03SHJnt
+      parentName: XenosBiped_Spine_02SHJnt
+      position: {x: -0.13388813, y: -0.000000095367426, z: -0.000000019073486}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: XenosBiped_Spine_TopSHJnt
+      parentName: XenosBiped_Spine_03SHJnt
+      position: {x: -0.13388807, y: 0.000000012516975, z: 0}
+      rotation: {x: 0.000000022351742, y: -4.1633357e-17, z: 0.21575546, w: 0.97644746}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: XenosBiped_Neck_01SHJnt
+      parentName: XenosBiped_Spine_TopSHJnt
+      position: {x: -0.11244019, y: -0.00000022351742, z: -0.000000014305114}
+      rotation: {x: 0.000000046432596, y: 0.00000008059386, z: -0.031013649, w: 0.999519}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: XenosBiped_Neck_TopSHJnt
+      parentName: XenosBiped_Neck_01SHJnt
+      position: {x: -0.11244023, y: -0.00000044196844, z: -0.000000019073486}
+      rotation: {x: -0.000000046867505, y: 0.000000034260882, z: 0.6812701, w: 0.7320322}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1.0000002}
+    - name: XenosBiped_Head_JawSHJnt
+      parentName: XenosBiped_Neck_TopSHJnt
+      position: {x: -0.18898366, y: 0.00000010132789, z: -0.000000014305114}
+      rotation: {x: -0.000000083761186, y: -8.731611e-10, z: 0.1186226, w: 0.9929395}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.99999994}
+    - name: XenosBiped_Head_JawEndSHJnt
+      parentName: XenosBiped_Head_JawSHJnt
+      position: {x: -0.16388705, y: 0.00000013768673, z: 0.000000019073486}
+      rotation: {x: 0.000000030016267, y: 0.000000022229937, z: -0.90713906, w: 0.4208311}
+      scale: {x: 0.9999998, y: 1, z: 1.0000002}
+    - name: XenosBiped_LowerLip_mid_AuxSHJnt
+      parentName: XenosBiped_Head_JawEndSHJnt
+      position: {x: -0.020687027, y: -0.00000012129544, z: 0.000000009536743}
+      rotation: {x: 0.5763338, y: -0.40968192, z: 0.5763338, w: 0.40968212}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: XenosBiped_LowerLip_mid_AuxSHJnt_end
+      parentName: XenosBiped_LowerLip_mid_AuxSHJnt
+      position: {x: -0, y: 0.010741294, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_LowerLip_AuxSHJnt
+      parentName: XenosBiped_Head_JawEndSHJnt
+      position: {x: -0.024530305, y: 0.008966199, z: -0.022265831}
+      rotation: {x: 0.7521143, y: -0.51784605, z: 0.35014564, w: 0.20870437}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: XenosBiped_l_LowerLip_AuxSHJnt_end
+      parentName: XenosBiped_l_LowerLip_AuxSHJnt
+      position: {x: -0, y: 0.0107413065, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_LowerLip_AuxSHJnt
+      parentName: XenosBiped_Head_JawEndSHJnt
+      position: {x: -0.02453016, y: 0.008966168, z: 0.022265881}
+      rotation: {x: 0.5178452, y: 0.75211525, z: 0.20870315, w: -0.35014564}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000005}
+    - name: XenosBiped_r_LowerLip_AuxSHJnt_end
+      parentName: XenosBiped_r_LowerLip_AuxSHJnt
+      position: {x: -0, y: 0.010741323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_LowerLip_Outer_AuxSHJnt
+      parentName: XenosBiped_Head_JawEndSHJnt
+      position: {x: -0.04458275, y: 0.044304937, z: -0.041659884}
+      rotation: {x: 0.8559653, y: -0.49930876, z: 0.032646514, w: 0.13018563}
+      scale: {x: 1.0000001, y: 1, z: 1.0000006}
+    - name: XenosBiped_l_LowerLip_Outer_AuxSHJnt_end
+      parentName: XenosBiped_l_LowerLip_Outer_AuxSHJnt
+      position: {x: -0, y: 0.010741409, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_LowerLip_Outer_AuxSHJnt
+      parentName: XenosBiped_Head_JawEndSHJnt
+      position: {x: -0.04458309, y: 0.044305008, z: 0.041659813}
+      rotation: {x: 0.4993089, y: 0.85596544, z: 0.13018514, w: -0.032645527}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_r_LowerLip_Outer_AuxSHJnt_end
+      parentName: XenosBiped_r_LowerLip_Outer_AuxSHJnt
+      position: {x: -0, y: 0.010741408, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_Head_TopSHJnt
+      parentName: XenosBiped_Neck_TopSHJnt
+      position: {x: 0.023099877, y: 0.17780891, z: -0.000000038146972}
+      rotation: {x: -0.000000048536034, y: -0.00000007404163, z: 0.16788174, w: 0.9858072}
+      scale: {x: 0.99999964, y: 1, z: 1}
+    - name: XenosBiped_UpperLip_mid_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.36490363, y: 0.00000020980835, z: -0.000000042915342}
+      rotation: {x: -0.35435617, y: -0.6119082, z: -0.35435614, w: 0.61190844}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999994}
+    - name: XenosBiped_UpperLip_mid_AuxSHJnt_end
+      parentName: XenosBiped_UpperLip_mid_AuxSHJnt
+      position: {x: -0, y: 0.010741409, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_UpperLip_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.34731972, y: -0.0051148618, z: -0.035121392}
+      rotation: {x: -0.4059448, y: -0.81001747, z: -0.3333615, w: 0.26067352}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: XenosBiped_l_UpperLip_AuxSHJnt_end
+      parentName: XenosBiped_l_UpperLip_AuxSHJnt
+      position: {x: -0, y: 0.010741349, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_UpperLip_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.34732008, y: -0.00511477, z: 0.035121292}
+      rotation: {x: 0.8100175, y: -0.40594393, z: 0.2606747, w: 0.33336157}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: XenosBiped_r_UpperLip_AuxSHJnt_end
+      parentName: XenosBiped_r_UpperLip_AuxSHJnt
+      position: {x: -0, y: 0.0107413465, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_LipCorner_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.32124767, y: -0.06524946, z: 0.04951993}
+      rotation: {x: 0.65539664, y: -0.2654335, z: 0.7047457, w: 0.057738833}
+      scale: {x: 1, y: 1.0000005, z: 1.0000008}
+    - name: XenosBiped_r_LipCorner_AuxSHJnt_end
+      parentName: XenosBiped_r_LipCorner_AuxSHJnt
+      position: {x: -0, y: 0.010741405, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_UpperLip_Outer_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.33150378, y: -0.040432915, z: -0.058391538}
+      rotation: {x: -0.5150299, y: -0.8418645, z: -0.021858716, w: 0.15978275}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000002}
+    - name: XenosBiped_l_UpperLip_Outer_AuxSHJnt_end
+      parentName: XenosBiped_l_UpperLip_Outer_AuxSHJnt
+      position: {x: -0, y: 0.010741391, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_UpperLip_Outer_AuxSHJnt
+      parentName: XenosBiped_Head_TopSHJnt
+      position: {x: -0.33150363, y: -0.040432833, z: 0.05839149}
+      rotation: {x: 0.84186345, y: -0.5150316, z: 0.15978314, w: 0.021859296}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+    - name: XenosBiped_r_UpperLip_Outer_AuxSHJnt_end
+      parentName: XenosBiped_r_UpperLip_Outer_AuxSHJnt
+      position: {x: -0, y: 0.0107414005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_Proboscis_AuxSHJnt
+      parentName: XenosBiped_Neck_TopSHJnt
+      position: {x: -0.34335697, y: 0.017136935, z: -0.0000000047683715}
+      rotation: {x: -0.000000049107086, y: 0.00000003570949, z: 0.48456123, w: 0.87475735}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_ProboscisBot_AuxSHJnt
+      parentName: XenosBiped_Proboscis_AuxSHJnt
+      position: {x: -0.015971722, y: 0.00000013377517, z: 0.0000000333786}
+      rotation: {x: 0.000000006525152, y: -0.00000005756121, z: -0.23369598, w: 0.97230977}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: XenosBiped_ProboscisBot_AuxSHJnt_end
+      parentName: XenosBiped_ProboscisBot_AuxSHJnt
+      position: {x: -0, y: 0.01074138, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_ProboscisTop_AuxSHJnt
+      parentName: XenosBiped_Proboscis_AuxSHJnt
+      position: {x: 0.005439235, y: 0.009322867, z: 0.0000000333786}
+      rotation: {x: -0.00000031719182, y: -0.00000025472102, z: -0.7739885, w: 0.6331997}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.99999994}
+    - name: XenosBiped_ProboscisTop_AuxSHJnt_end
+      parentName: XenosBiped_ProboscisTop_AuxSHJnt
+      position: {x: -0, y: 0.010741376, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Arm_ClavicleSHJnt
+      parentName: XenosBiped_Spine_03SHJnt
+      position: {x: -0.11139749, y: -0.0027886035, z: -0.051275168}
+      rotation: {x: 0.37626633, y: -0.5986849, z: 0.5478423, w: 0.44706708}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000004}
+    - name: XenosBiped_l_Arm_ShoulderSHJnt
+      parentName: XenosBiped_l_Arm_ClavicleSHJnt
+      position: {x: -0.12556753, y: 0.00000024318695, z: 0.00000006198883}
+      rotation: {x: -0.08107762, y: 0.0009892285, z: -0.13787772, w: 0.9871248}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000002}
+    - name: XenosBiped_l_Arm_Upper_Curve1SHJnt
+      parentName: XenosBiped_l_Arm_ShoulderSHJnt
+      position: {x: -0.2242557, y: -0.00000023543834, z: -0.000000028610229}
+      rotation: {x: 0.23403388, y: -0.0000013411044, z: -0.00000040605659, w: 0.9722284}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_l_Arm_Upper_Curve1SHJnt_end
+      parentName: XenosBiped_l_Arm_Upper_Curve1SHJnt
+      position: {x: -0, y: 0.010741374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Arm_Elbow_CurveSHJnt
+      parentName: XenosBiped_l_Arm_ShoulderSHJnt
+      position: {x: -0.44851112, y: 0.000000026226044, z: 0.00000019073485}
+      rotation: {x: 0.33306262, y: 0.03265778, z: -0.02040896, w: 0.9421179}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: XenosBiped_l_Arm_WristSHJnt
+      parentName: XenosBiped_l_Arm_Elbow_CurveSHJnt
+      position: {x: -0.40664086, y: -0.000000052452087, z: -0.00000011920929}
+      rotation: {x: 0.14387469, y: 0.09364819, z: 0.13666426, w: 0.9756295}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000001}
+    - name: XenosBiped_l_Finger_01_01SHJnt
+      parentName: XenosBiped_l_Arm_WristSHJnt
+      position: {x: -0.15447353, y: -0.000000104904174, z: -0.000000029057263}
+      rotation: {x: 0.94009113, y: -0.0250211, z: 0.09849494, w: -0.3254251}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: XenosBiped_l_Finger_01_02SHJnt
+      parentName: XenosBiped_l_Finger_01_01SHJnt
+      position: {x: -0.07073825, y: 0.00000009059906, z: 0.00000013113022}
+      rotation: {x: 0.026563507, y: 0.029065633, z: 0.02082932, w: -0.99900734}
+      scale: {x: 1, y: 0.9999998, z: 0.9999996}
+    - name: XenosBiped_l_Finger_01_03SHJnt
+      parentName: XenosBiped_l_Finger_01_02SHJnt
+      position: {x: -0.057468195, y: -0.00000015258789, z: -0.00000006198883}
+      rotation: {x: -0.07463041, y: 0.07470396, z: -0.7027807, w: -0.703526}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000002}
+    - name: XenosBiped_l_Finger_01_03SHJnt_end
+      parentName: XenosBiped_l_Finger_01_03SHJnt
+      position: {x: -0, y: 0.0107413735, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Finger_02_01SHJnt
+      parentName: XenosBiped_l_Arm_WristSHJnt
+      position: {x: -0.14480773, y: -0.02894095, z: -0.040311616}
+      rotation: {x: -0.92766994, y: -0.008276981, z: -0.13036984, w: 0.3498052}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1.0000005}
+    - name: XenosBiped_l_Finger_02_02SHJnt
+      parentName: XenosBiped_l_Finger_02_01SHJnt
+      position: {x: -0.06463144, y: 0.0000000035762786, z: -0.00000016331673}
+      rotation: {x: 0.0009625552, y: -0.039426997, z: 0.004096945, w: 0.9992136}
+      scale: {x: 1.000001, y: 1.0000005, z: 0.9999996}
+    - name: XenosBiped_l_Finger_02_03SHJnt
+      parentName: XenosBiped_l_Finger_02_02SHJnt
+      position: {x: -0.050250296, y: -0.00000004529953, z: 0.000000067949294}
+      rotation: {x: 0.042448062, y: -0.042854723, z: 0.7025048, w: 0.70911825}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_l_Finger_02_03SHJnt_end
+      parentName: XenosBiped_l_Finger_02_03SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Finger_03_01SHJnt
+      parentName: XenosBiped_l_Arm_WristSHJnt
+      position: {x: -0.13641022, y: -0.051285572, z: -0.066338144}
+      rotation: {x: -0.92041963, y: -0.018453777, z: -0.14628455, w: 0.3620608}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000002}
+    - name: XenosBiped_l_Finger_03_02SHJnt
+      parentName: XenosBiped_l_Finger_03_01SHJnt
+      position: {x: -0.03590567, y: -0.000000052452087, z: -0.000000044107438}
+      rotation: {x: 0.004420457, y: -0.03430531, z: 0.020619232, w: 0.9991889}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.99999946}
+    - name: XenosBiped_l_Finger_03_03SHJnt
+      parentName: XenosBiped_l_Finger_03_02SHJnt
+      position: {x: -0.028127937, y: 0.000000023841856, z: 0.00000011563301}
+      rotation: {x: 0.042646635, y: -0.042878743, z: 0.70362955, w: 0.70798886}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: XenosBiped_l_Finger_03_03SHJnt_end
+      parentName: XenosBiped_l_Finger_03_03SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Thumb_01_01SHJnt
+      parentName: XenosBiped_l_Arm_WristSHJnt
+      position: {x: -0.036720265, y: -0.00053239823, z: 0.045279723}
+      rotation: {x: -0.9273824, y: 0.32382765, z: 0.14896874, w: 0.11360346}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000002}
+    - name: XenosBiped_l_Thumb_01_02SHJnt
+      parentName: XenosBiped_l_Thumb_01_01SHJnt
+      position: {x: -0.061539706, y: -0.00000007867813, z: -0.000000007152557}
+      rotation: {x: -0.018686533, y: -0.023050025, z: 0.030336596, w: 0.9990992}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: XenosBiped_l_Thumb_01_03SHJnt
+      parentName: XenosBiped_l_Thumb_01_02SHJnt
+      position: {x: -0.033150624, y: -0.00000019192696, z: 0.000000011324882}
+      rotation: {x: 0.00000036787242, y: 0.000005926937, z: 0.7040177, w: 0.7101824}
+      scale: {x: 0.9999999, y: 1.0000004, z: 0.9999998}
+    - name: XenosBiped_l_Thumb_01_03SHJnt_end
+      parentName: XenosBiped_l_Thumb_01_03SHJnt
+      position: {x: -0, y: 0.010741376, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Arm_Lower_Curve1SHJnt
+      parentName: XenosBiped_l_Arm_Elbow_CurveSHJnt
+      position: {x: -0.20332026, y: -0.000000104904174, z: -0.000000019073486}
+      rotation: {x: -0.11128725, y: 0.0000017285347, z: 0.000002399087, w: 0.99378836}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: XenosBiped_l_Arm_Lower_Curve1SHJnt_end
+      parentName: XenosBiped_l_Arm_Lower_Curve1SHJnt
+      position: {x: -0, y: 0.010741359, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Arm_ClavicleSHJnt
+      parentName: XenosBiped_Spine_03SHJnt
+      position: {x: -0.111397535, y: -0.0027884578, z: 0.051275127}
+      rotation: {x: -0.37626627, y: 0.5986851, z: 0.54784226, w: 0.44706696}
+      scale: {x: 0.9999994, y: 0.99999994, z: 1.0000006}
+    - name: XenosBiped_r_Arm_ShoulderSHJnt
+      parentName: XenosBiped_r_Arm_ClavicleSHJnt
+      position: {x: -0.12556773, y: 0.00000036165116, z: -0.00000008106232}
+      rotation: {x: 0.08107746, y: -0.000989407, z: -0.1378781, w: 0.9871247}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: XenosBiped_r_Arm_Upper_Curve1SHJnt
+      parentName: XenosBiped_r_Arm_ShoulderSHJnt
+      position: {x: -0.22425543, y: 0.000000035762785, z: -0.000000002980232}
+      rotation: {x: 0.0000018849967, y: 0.23403327, z: 0.97222865, w: -0.00000049918884}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
+    - name: XenosBiped_r_Arm_Upper_Curve1SHJnt_end
+      parentName: XenosBiped_r_Arm_Upper_Curve1SHJnt
+      position: {x: -0, y: 0.010741372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Arm_Elbow_CurveSHJnt
+      parentName: XenosBiped_r_Arm_ShoulderSHJnt
+      position: {x: -0.44851092, y: 0.00000008106232, z: -0.000000032782555}
+      rotation: {x: -0.33306238, y: -0.032656666, z: -0.020408312, w: 0.94211805}
+      scale: {x: 0.99999976, y: 1, z: 1}
+    - name: XenosBiped_r_Arm_WristSHJnt
+      parentName: XenosBiped_r_Arm_Elbow_CurveSHJnt
+      position: {x: -0.40664077, y: 0.00000061035155, z: -0.00000029563904}
+      rotation: {x: -0.14387414, y: -0.093648694, z: 0.13666421, w: 0.9756296}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: XenosBiped_r_Finger_01_01SHJnt
+      parentName: XenosBiped_r_Arm_WristSHJnt
+      position: {x: -0.15447351, y: 0.00000020980835, z: -0.0000001335144}
+      rotation: {x: -0.32542458, y: 0.09849718, z: -0.025020944, w: 0.9400911}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: XenosBiped_r_Finger_01_02SHJnt
+      parentName: XenosBiped_r_Finger_01_01SHJnt
+      position: {x: -0.07073824, y: 0.000000076293944, z: -0.000000114440915}
+      rotation: {x: 0.02656241, y: -0.029062422, z: 0.020823363, w: 0.99900764}
+      scale: {x: 1.0000002, y: 0.99999946, z: 0.99999976}
+    - name: XenosBiped_r_Finger_01_03SHJnt
+      parentName: XenosBiped_r_Finger_01_02SHJnt
+      position: {x: -0.057468183, y: -0.00000029563904, z: -0.00000022888183}
+      rotation: {x: 0.0681413, y: -0.069359265, z: 0.6979554, w: 0.7095099}
+      scale: {x: 1, y: 1.0000005, z: 0.99999994}
+    - name: XenosBiped_r_Finger_01_03SHJnt_end
+      parentName: XenosBiped_r_Finger_01_03SHJnt
+      position: {x: -0, y: 0.010741363, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Finger_02_01SHJnt
+      parentName: XenosBiped_r_Arm_WristSHJnt
+      position: {x: -0.14480785, y: -0.028940534, z: 0.04031143}
+      rotation: {x: -0.3497924, y: 0.13035652, z: 0.008262979, w: 0.9276768}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_r_Finger_02_02SHJnt
+      parentName: XenosBiped_r_Finger_02_01SHJnt
+      position: {x: -0.064631395, y: 0.000000057220458, z: 0.00000020980835}
+      rotation: {x: -0.0009333787, y: -0.039462123, z: -0.0041240742, w: 0.99921215}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: XenosBiped_r_Finger_02_03SHJnt
+      parentName: XenosBiped_r_Finger_02_02SHJnt
+      position: {x: -0.050250243, y: 0.0000025701522, z: -0.00000006198883}
+      rotation: {x: 0.043827146, y: -0.04417965, z: 0.70285106, w: 0.7086097}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_r_Finger_02_03SHJnt_end
+      parentName: XenosBiped_r_Finger_02_03SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Finger_03_01SHJnt
+      parentName: XenosBiped_r_Arm_WristSHJnt
+      position: {x: -0.13641039, y: -0.051285304, z: 0.06633821}
+      rotation: {x: -0.3620561, y: 0.14627832, z: 0.018444406, w: 0.9204227}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1}
+    - name: XenosBiped_r_Finger_03_02SHJnt
+      parentName: XenosBiped_r_Finger_03_01SHJnt
+      position: {x: -0.035905417, y: -0.00000015258789, z: 0.00000015258789}
+      rotation: {x: -0.004420129, y: -0.034289286, z: -0.020637723, w: 0.9991891}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: XenosBiped_r_Finger_03_03SHJnt
+      parentName: XenosBiped_r_Finger_03_02SHJnt
+      position: {x: -0.028127927, y: -0.000000057220458, z: 0.000000095367426}
+      rotation: {x: 0.035818666, y: -0.036304068, z: 0.7021966, w: 0.71015424}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000004}
+    - name: XenosBiped_r_Finger_03_03SHJnt_end
+      parentName: XenosBiped_r_Finger_03_03SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Thumb_01_01SHJnt
+      parentName: XenosBiped_r_Arm_WristSHJnt
+      position: {x: -0.036720216, y: -0.00053219794, z: -0.0452799}
+      rotation: {x: -0.30821356, y: -0.076699026, z: -0.34810126, w: 0.88201314}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: XenosBiped_r_Thumb_01_02SHJnt
+      parentName: XenosBiped_r_Thumb_01_01SHJnt
+      position: {x: -0.061539553, y: -0.0000001335144, z: 0.000000085830685}
+      rotation: {x: -0.0081442855, y: -0.007359963, z: -0.037382003, w: 0.99924076}
+      scale: {x: 0.99999976, y: 1.0000004, z: 0.99999964}
+    - name: XenosBiped_r_Thumb_01_03SHJnt
+      parentName: XenosBiped_r_Thumb_01_02SHJnt
+      position: {x: -0.03315057, y: -0.000000076293944, z: -0.000000104904174}
+      rotation: {x: -0.000006127634, y: 0.000007172577, z: 0.7040095, w: 0.7101905}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
+    - name: XenosBiped_r_Thumb_01_03SHJnt_end
+      parentName: XenosBiped_r_Thumb_01_03SHJnt
+      position: {x: -0, y: 0.010741332, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Arm_Lower_Curve1SHJnt
+      parentName: XenosBiped_r_Arm_Elbow_CurveSHJnt
+      position: {x: -0.20332034, y: 0.00000019073485, z: -0.000000095367426}
+      rotation: {x: -0.0000027939675, y: -0.11128707, z: 0.9937883, w: -0.0000022798774}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: XenosBiped_r_Arm_Lower_Curve1SHJnt_end
+      parentName: XenosBiped_r_Arm_Lower_Curve1SHJnt
+      position: {x: -0, y: 0.01074136, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_UpperBackTube_AuxSHJnt
+      parentName: XenosBiped_Spine_03SHJnt
+      position: {x: -0.020119024, y: 0.113473825, z: -0.07244134}
+      rotation: {x: 0.7366254, y: -0.6605425, z: 0.08286843, w: 0.11916199}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999964}
+    - name: XenosBiped_l_UpperBackTube01_AuxSHJnt
+      parentName: XenosBiped_l_UpperBackTube_AuxSHJnt
+      position: {x: -0.12160739, y: 0.0000003120303, z: -0.000000042915342}
+      rotation: {x: 0.014196942, y: -0.05888639, z: -0.004420012, w: 0.9981539}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: XenosBiped_l_UpperBackTube02_AuxSHJnt
+      parentName: XenosBiped_l_UpperBackTube01_AuxSHJnt
+      position: {x: -0.09189945, y: 0.000000024139881, z: 0.00000005483627}
+      rotation: {x: -0.007229839, y: 0.057777416, z: 0.11605666, w: 0.99153435}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: XenosBiped_l_UpperBackTube02_AuxSHJnt_end
+      parentName: XenosBiped_l_UpperBackTube02_AuxSHJnt
+      position: {x: -0, y: 0.010741307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_UpperBackTube_AuxSHJnt
+      parentName: XenosBiped_Spine_03SHJnt
+      position: {x: -0.020122666, y: 0.11347409, z: 0.072441295}
+      rotation: {x: 0.6605421, y: 0.73662573, z: 0.11916205, w: -0.082868494}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.99999964}
+    - name: XenosBiped_r_UpperBackTube01_AuxSHJnt
+      parentName: XenosBiped_r_UpperBackTube_AuxSHJnt
+      position: {x: 0.12160557, y: 0.000007880926, z: -0.00000022888183}
+      rotation: {x: 0.0141972955, y: -0.05888615, z: -0.00442031, w: 0.9981539}
+      scale: {x: 1.0000005, y: 1.0000012, z: 1.0000005}
+    - name: XenosBiped_r_UpperBackTube02_AuxSHJnt
+      parentName: XenosBiped_r_UpperBackTube01_AuxSHJnt
+      position: {x: 0.09190028, y: -0.0000055897235, z: -0.00000026971102}
+      rotation: {x: -0.0072300658, y: 0.057777096, z: 0.11605803, w: 0.9915343}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+    - name: XenosBiped_r_UpperBackTube02_AuxSHJnt_end
+      parentName: XenosBiped_r_UpperBackTube02_AuxSHJnt
+      position: {x: -0, y: 0.010741307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_LowerBackTube_AuxSHJnt
+      parentName: XenosBiped_Spine_02SHJnt
+      position: {x: 0.006991617, y: 0.12148984, z: -0.069287725}
+      rotation: {x: 0.7378451, y: -0.64942956, z: 0.103605635, w: 0.15196013}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: XenosBiped_l_LowerBackTube01_AuxSHJnt
+      parentName: XenosBiped_l_LowerBackTube_AuxSHJnt
+      position: {x: -0.08771881, y: 0.00000027656554, z: -0.00000015974044}
+      rotation: {x: 0.02427686, y: -0.096758455, z: 0.004792571, w: 0.9950003}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999999}
+    - name: XenosBiped_l_LowerBackTube02_AuxSHJnt
+      parentName: XenosBiped_l_LowerBackTube01_AuxSHJnt
+      position: {x: -0.091899544, y: 0.00000007390976, z: 0.00000004529953}
+      rotation: {x: -0.0072305463, y: 0.057777047, z: 0.11605842, w: 0.99153423}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_l_LowerBackTube02_AuxSHJnt_end
+      parentName: XenosBiped_l_LowerBackTube02_AuxSHJnt
+      position: {x: -0, y: 0.010741307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_LowerBackTube_AuxSHJnt
+      parentName: XenosBiped_Spine_02SHJnt
+      position: {x: 0.0069888737, y: 0.12149079, z: 0.06928767}
+      rotation: {x: 0.64943033, y: 0.7378444, z: 0.15195988, w: -0.103605986}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: XenosBiped_r_LowerBackTube01_AuxSHJnt
+      parentName: XenosBiped_r_LowerBackTube_AuxSHJnt
+      position: {x: 0.08771654, y: 0.0000061026212, z: -0.0000007498264}
+      rotation: {x: 0.024276782, y: -0.09675871, z: 0.004792362, w: 0.99500024}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: XenosBiped_r_LowerBackTube02_AuxSHJnt
+      parentName: XenosBiped_r_LowerBackTube01_AuxSHJnt
+      position: {x: 0.091900975, y: -0.0000048321485, z: 0.0000009447336}
+      rotation: {x: -0.0072300704, y: 0.05777737, z: 0.11605685, w: 0.9915344}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_r_LowerBackTube02_AuxSHJnt_end
+      parentName: XenosBiped_r_LowerBackTube02_AuxSHJnt
+      position: {x: -0, y: 0.010741307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Leg_HipSHJnt
+      parentName: XenosBiped_ROOTSHJnt
+      position: {x: 0.050989058, y: -0.021328075, z: -0.13179766}
+      rotation: {x: 0.0043478534, y: -0.09568006, z: 0.9812527, w: 0.16724138}
+      scale: {x: 1.0000006, y: 0.9999999, z: 0.99999917}
+    - name: XenosBiped_l_Leg_Upper_Curve1SHJnt
+      parentName: XenosBiped_l_Leg_HipSHJnt
+      position: {x: -0.32650366, y: 0.00000014305114, z: 0.000000019073486}
+      rotation: {x: -0.62829167, y: 0.000018327495, z: -0.000021665122, w: 0.7779779}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: XenosBiped_l_Leg_Upper_Curve1SHJnt_end
+      parentName: XenosBiped_l_Leg_Upper_Curve1SHJnt
+      position: {x: -0, y: 0.010741372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Leg_Knee1SHJnt
+      parentName: XenosBiped_l_Leg_HipSHJnt
+      position: {x: -0.6530076, y: 0.000033898352, z: 0.000007295608}
+      rotation: {x: -0.9494802, y: -0.26470116, z: -0.009710897, w: 0.16830494}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+    - name: XenosBiped_l_Leg_Middle_Curve1SHJnt
+      parentName: XenosBiped_l_Leg_Knee1SHJnt
+      position: {x: -0.31560493, y: -0.000000095367426, z: 0.000000047683713}
+      rotation: {x: 0.65637356, y: 0.000014811751, z: 0.0000154376, w: 0.754436}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.9999999}
+    - name: XenosBiped_l_Leg_Middle_Curve1SHJnt_end
+      parentName: XenosBiped_l_Leg_Middle_Curve1SHJnt
+      position: {x: -0, y: 0.010741372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Leg_Knee2_CurveSHJnt
+      parentName: XenosBiped_l_Leg_Knee1SHJnt
+      position: {x: -0.6311744, y: -0.000024687573, z: 0.0000036647543}
+      rotation: {x: 0.88904494, y: 0.4273513, z: -0.019428352, w: 0.16307248}
+      scale: {x: 0.99999946, y: 0.99999994, z: 0.99999964}
+    - name: XenosBiped_l_Leg_AnkleSHJnt
+      parentName: XenosBiped_l_Leg_Knee2_CurveSHJnt
+      position: {x: -0.25718793, y: 0.000000095367426, z: -0.000000029802322}
+      rotation: {x: 0.03640377, y: 0.035372227, z: -0.20270902, w: 0.9779226}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999994}
+    - name: XenosBiped_l_Toe00_Base_SHJnt
+      parentName: XenosBiped_l_Leg_AnkleSHJnt
+      position: {x: -0.03343802, y: -0.020685328, z: 0.089251295}
+      rotation: {x: 0.042471904, y: 0.12753715, z: -0.26801357, w: 0.9539912}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: XenosBiped_l_Toe00_Base_SHJnt_end
+      parentName: XenosBiped_l_Toe00_Base_SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Toe01_Base_SHJnt
+      parentName: XenosBiped_l_Leg_AnkleSHJnt
+      position: {x: -0.08596769, y: 0.017377606, z: 0.054497547}
+      rotation: {x: 0.011458259, y: 0.039068375, z: -0.3051987, w: 0.9514179}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: XenosBiped_l_Toe01_Base_SHJnt_end
+      parentName: XenosBiped_l_Toe01_Base_SHJnt
+      position: {x: -0, y: 0.010741368, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Toe02_Base_SHJnt
+      parentName: XenosBiped_l_Leg_AnkleSHJnt
+      position: {x: -0.090463005, y: 0.024134554, z: 0.022878256}
+      rotation: {x: 0.0027819162, y: 0.008963143, z: -0.29042843, w: 0.95685065}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: XenosBiped_l_Toe02_Base_SHJnt_end
+      parentName: XenosBiped_l_Toe02_Base_SHJnt
+      position: {x: -0, y: 0.010741365, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Toe03_Base_SHJnt
+      parentName: XenosBiped_l_Leg_AnkleSHJnt
+      position: {x: -0.08489707, y: 0.016360274, z: -0.006539249}
+      rotation: {x: -0.01163271, y: -0.03718028, z: -0.2877258, w: 0.95692015}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: XenosBiped_l_Toe03_Base_SHJnt_end
+      parentName: XenosBiped_l_Toe03_Base_SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Toe04_Base_SHJnt
+      parentName: XenosBiped_l_Leg_AnkleSHJnt
+      position: {x: -0.07539941, y: 0.0074682045, z: -0.032034684}
+      rotation: {x: -0.013611572, y: -0.042237513, z: -0.2795028, w: 0.95911884}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: XenosBiped_l_Toe04_Base_SHJnt_end
+      parentName: XenosBiped_l_Toe04_Base_SHJnt
+      position: {x: -0, y: 0.010741365, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_l_Leg_Lower_Curve1SHJnt
+      parentName: XenosBiped_l_Leg_Knee2_CurveSHJnt
+      position: {x: -0.12860915, y: -0.0000052261353, z: -0.00000060915943}
+      rotation: {x: -0.6361189, y: -0.0000011622903, z: -0.0000014007088, w: 0.7715911}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: XenosBiped_l_Leg_Lower_Curve1SHJnt_end
+      parentName: XenosBiped_l_Leg_Lower_Curve1SHJnt
+      position: {x: -0, y: 0.0107413735, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Leg_HipSHJnt
+      parentName: XenosBiped_ROOTSHJnt
+      position: {x: 0.05098897, y: -0.02132801, z: 0.13179769}
+      rotation: {x: -0.004349023, y: 0.095680736, z: 0.9812527, w: 0.1672411}
+      scale: {x: 1.0000002, y: 0.99999934, z: 0.9999997}
+    - name: XenosBiped_r_Leg_Upper_Curve1SHJnt
+      parentName: XenosBiped_r_Leg_HipSHJnt
+      position: {x: -0.3265036, y: 0.00000032901764, z: 0}
+      rotation: {x: -0.000018580584, y: -0.6282909, z: 0.7779786, w: 0.000019506551}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+    - name: XenosBiped_r_Leg_Upper_Curve1SHJnt_end
+      parentName: XenosBiped_r_Leg_Upper_Curve1SHJnt
+      position: {x: -0, y: 0.010741372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Leg_Knee1SHJnt
+      parentName: XenosBiped_r_Leg_HipSHJnt
+      position: {x: -0.6530074, y: 0.000034712553, z: -0.0000073623655}
+      rotation: {x: -0.9494809, y: -0.264698, z: 0.009709112, w: -0.16830601}
+      scale: {x: 0.99999976, y: 0.99999946, z: 1}
+    - name: XenosBiped_r_Leg_Middle_Curve1SHJnt
+      parentName: XenosBiped_r_Leg_Knee1SHJnt
+      position: {x: -0.315605, y: -0.00000007867813, z: -0.0000000047683715}
+      rotation: {x: 0.000012710689, y: -0.65637386, z: -0.7544358, w: 0.000012308357}
+      scale: {x: 0.9999997, y: 1, z: 0.99999994}
+    - name: XenosBiped_r_Leg_Middle_Curve1SHJnt_end
+      parentName: XenosBiped_r_Leg_Middle_Curve1SHJnt
+      position: {x: -0, y: 0.010741372, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Leg_Knee2_CurveSHJnt
+      parentName: XenosBiped_r_Leg_Knee1SHJnt
+      position: {x: -0.63117456, y: -0.000024780034, z: -0.0000033950805}
+      rotation: {x: 0.889046, y: 0.4273488, z: 0.019432943, w: -0.1630725}
+      scale: {x: 0.99999946, y: 1, z: 0.9999998}
+    - name: XenosBiped_r_Leg_AnkleSHJnt
+      parentName: XenosBiped_r_Leg_Knee2_CurveSHJnt
+      position: {x: -0.257188, y: 0.000000009536743, z: 0.000000009536743}
+      rotation: {x: -0.036401965, y: -0.035374247, z: -0.20270814, w: 0.9779228}
+      scale: {x: 0.99999994, y: 1, z: 0.9999996}
+    - name: XenosBiped_r_Toe00_Base_SHJnt
+      parentName: XenosBiped_r_Leg_AnkleSHJnt
+      position: {x: -0.033437986, y: -0.020685319, z: -0.08925109}
+      rotation: {x: -0.12753706, y: 0.042471416, z: 0.95399094, w: 0.26801446}
+      scale: {x: 1.0000005, y: 0.9999999, z: 0.99999994}
+    - name: XenosBiped_r_Toe00_Base_SHJnt_end
+      parentName: XenosBiped_r_Toe00_Base_SHJnt
+      position: {x: -0, y: 0.010741367, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Toe01_Base_SHJnt
+      parentName: XenosBiped_r_Leg_AnkleSHJnt
+      position: {x: -0.08596806, y: 0.017377539, z: -0.05449704}
+      rotation: {x: -0.039072525, y: 0.011442597, z: 0.9514179, w: 0.305199}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_r_Toe01_Base_SHJnt_end
+      parentName: XenosBiped_r_Toe01_Base_SHJnt
+      position: {x: -0, y: 0.010741367, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Toe02_Base_SHJnt
+      parentName: XenosBiped_r_Leg_AnkleSHJnt
+      position: {x: -0.09046347, y: 0.024134563, z: -0.02287836}
+      rotation: {x: -0.008965282, y: 0.0027727515, z: 0.95685107, w: 0.29042736}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: XenosBiped_r_Toe02_Base_SHJnt_end
+      parentName: XenosBiped_r_Toe02_Base_SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Toe03_Base_SHJnt
+      parentName: XenosBiped_r_Leg_AnkleSHJnt
+      position: {x: -0.08489738, y: 0.01636021, z: 0.0065388167}
+      rotation: {x: 0.037179507, y: -0.011635208, z: 0.9569202, w: 0.28772575}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1}
+    - name: XenosBiped_r_Toe03_Base_SHJnt_end
+      parentName: XenosBiped_r_Toe03_Base_SHJnt
+      position: {x: -0, y: 0.010741366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Toe04_Base_SHJnt
+      parentName: XenosBiped_r_Leg_AnkleSHJnt
+      position: {x: -0.075399674, y: 0.007468066, z: 0.032034855}
+      rotation: {x: 0.04223687, y: -0.013613943, z: 0.9591187, w: 0.27950338}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000002}
+    - name: XenosBiped_r_Toe04_Base_SHJnt_end
+      parentName: XenosBiped_r_Toe04_Base_SHJnt
+      position: {x: -0, y: 0.010741367, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_r_Leg_Lower_Curve1SHJnt
+      parentName: XenosBiped_r_Leg_Knee2_CurveSHJnt
+      position: {x: -0.128609, y: -0.000005207062, z: 0.00000047683716}
+      rotation: {x: -0.0000005215405, y: -0.6361205, z: 0.7715897, w: -0.0000017285342}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: XenosBiped_r_Leg_Lower_Curve1SHJnt_end
+      parentName: XenosBiped_r_Leg_Lower_Curve1SHJnt
+      position: {x: -0, y: 0.010741371, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: XenosBiped_TailRoot_SHJnt
+      parentName: XenosBiped_ROOTSHJnt
+      position: {x: -0.00000019483734, y: 0.000000049279794, z: 3.23364e-10}
+      rotation: {x: 0.26387903, y: -0.96455383, z: -0.0018082578, w: -0.000744164}
+      scale: {x: 1, y: 0.99999976, z: 0.9999997}
+    - name: XenosBiped_Tail01_SHJnt
+      parentName: XenosBiped_TailRoot_SHJnt
+      position: {x: -0.10048199, y: 0.0000002415478, z: -0.000000008493662}
+      rotation: {x: -0.000000023530443, y: -0.000000068393994, z: 0.0000001490116, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: XenosBiped_Tail02_SHJnt
+      parentName: XenosBiped_Tail01_SHJnt
+      position: {x: -0.1004819, y: -0.00000028729437, z: 0.000000017881392}
+      rotation: {x: 0.000000039945007, y: 0.000000072875984, z: -0.000000119209275, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: XenosBiped_Tail03_SHJnt
+      parentName: XenosBiped_Tail02_SHJnt
+      position: {x: -0.10048204, y: -0.00000008836388, z: 0.000000022649765}
+      rotation: {x: -0.000000033658583, y: -0.00000004016329, z: 0.00000002980232, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: XenosBiped_Tail04_SHJnt
+      parentName: XenosBiped_Tail03_SHJnt
+      position: {x: -0.10048192, y: 0.00000005401671, z: 0.000000021457671}
+      rotation: {x: 0.000000033251027, y: 0.00000007619387, z: -0.0000027716153, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+    - name: XenosBiped_Tail05_SHJnt
+      parentName: XenosBiped_Tail04_SHJnt
+      position: {x: -0.100481905, y: 0.00000023327767, z: 0.000000010728836}
+      rotation: {x: -0.0000000143045185, y: -0.000000004074571, z: 0.000000029802314, w: 1}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000007}
+    - name: XenosBiped_Tail06_SHJnt
+      parentName: XenosBiped_Tail05_SHJnt
+      position: {x: -0.10048189, y: 0.0000000628829, z: -0.000000039339064}
+      rotation: {x: -7.2503774e-11, y: -0.00000009260838, z: -0.0000000894074, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: XenosBiped_Tail07_SHJnt
+      parentName: XenosBiped_Tail06_SHJnt
+      position: {x: -0.10048192, y: 0.00000028476117, z: 0.000000014305114}
+      rotation: {x: 0.000000028783665, y: 0.000000007858119, z: 0.000000029802319, w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: XenosBiped_Tail08_SHJnt
+      parentName: XenosBiped_Tail07_SHJnt
+      position: {x: -0.10048183, y: 0.00000013262033, z: -0.0000000011920929}
+      rotation: {x: 0.000000009502225, y: 0.00000006414486, z: 0.000000089406726, w: 1}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.9999996}
+    - name: XenosBiped_Tail09_SHJnt
+      parentName: XenosBiped_Tail08_SHJnt
+      position: {x: -0.100481905, y: -0.00000008590519, z: -0.000000004172325}
+      rotation: {x: -0.00000003821338, y: 0.000000020605407, z: -0.00000002980164, w: 1}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000006}
+    - name: XenosBiped_Tail10_SHJnt
+      parentName: XenosBiped_Tail09_SHJnt
+      position: {x: -0.10048202, y: -0.000000095814464, z: 0.0000000017881393}
+      rotation: {x: 0.000000027008383, y: -0.00000002537846, z: 0.0000009834761, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 1.0000002}
+    - name: XenosBiped_Tail11_SHJnt
+      parentName: XenosBiped_Tail10_SHJnt
+      position: {x: -0.10048187, y: 0.000000106990335, z: -0.000000021457671}
+      rotation: {x: -0.000000010899272, y: -0.00000006548361, z: 0.00000035762784, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000005}
+    - name: XenosBiped_Tail12_SHJnt
+      parentName: XenosBiped_Tail11_SHJnt
+      position: {x: -0.10048196, y: -0.000000095367426, z: 0.000000010728836}
+      rotation: {x: 0.000000046071296, y: 0.000000043422965, z: 0.00000005960456, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000007}
+    - name: XenosBiped_Tail13_SHJnt
+      parentName: XenosBiped_Tail12_SHJnt
+      position: {x: -0.1004819, y: 0.00000010728836, z: 0.000000038146972}
+      rotation: {x: -0.000000025742334, y: -0.000000006170068, z: -0.00000050663937, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: XenosBiped_Tail14_SHJnt
+      parentName: XenosBiped_Tail13_SHJnt
+      position: {x: -0.10048179, y: -0.00000017166137, z: 0.000000076293944}
+      rotation: {x: -0.00000003185411, y: -0.00000000942969, z: 0.00000038743016, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_Tail15_SHJnt
+      parentName: XenosBiped_Tail14_SHJnt
+      position: {x: -0.10048197, y: 0.00000034332274, z: 0.000000038146972}
+      rotation: {x: 0.00000003141744, y: 0.000000102038086, z: -0.0000004172326, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: XenosBiped_Tail16_SHJnt
+      parentName: XenosBiped_Tail15_SHJnt
+      position: {x: -0.10048155, y: 0.00000015258789, z: 0}
+      rotation: {x: -0.00000006255868, y: -0.000000049825854, z: 0.0000010430813, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: XenosBiped_Tail17_SHJnt
+      parentName: XenosBiped_Tail16_SHJnt
+      position: {x: -0.10048227, y: -0.000000095367426, z: -0.000000019073486}
+      rotation: {x: 0.000000027052078, y: -0.00000008515779, z: -0.00000008940697, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: XenosBiped_Tail18_SHJnt
+      parentName: XenosBiped_Tail17_SHJnt
+      position: {x: -0.10048178, y: -0.0000004673004, z: 0}
+      rotation: {x: 0.000000067375325, y: 0.00000007933711, z: 0.00000047683716, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: XenosBiped_Tail19_SHJnt
+      parentName: XenosBiped_Tail18_SHJnt
+      position: {x: -0.10048238, y: 0.0000001335144, z: 0.000000038146972}
+      rotation: {x: 0.000000006111782, y: 0.000000033469373, z: -0.00000044703484, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: XenosBiped_Tail20_SHJnt
+      parentName: XenosBiped_Tail19_SHJnt
+      position: {x: -0.10048143, y: 0.00000015258789, z: 0.000000095367426}
+      rotation: {x: -0.00000008237818, y: -0.000000080152184, z: -0.0000022649765, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000006}
+    - name: XenosBiped_Tail21_SHJnt
+      parentName: XenosBiped_Tail20_SHJnt
+      position: {x: -0.1004818, y: 0.000000038146972, z: -0.000000114440915}
+      rotation: {x: -0.000000059022497, y: -0.000000016123705, z: 0.00000002980254, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: XenosBiped_Tail22_SHJnt
+      parentName: XenosBiped_Tail21_SHJnt
+      position: {x: -0.10048188, y: 0.000000076293944, z: 0.000000076293944}
+      rotation: {x: 0.000000028769076, y: 0.00000000779993, z: 0.000000029802319, w: 1}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: XenosBiped_Tail23_SHJnt
+      parentName: XenosBiped_Tail22_SHJnt
+      position: {x: -0.10048186, y: 0.0000004005432, z: 0.000000019073486}
+      rotation: {x: 0.000000044761666, y: 0.000000012107318, z: 0.000000029802102, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: XenosBiped_Tail24_SHJnt
+      parentName: XenosBiped_Tail23_SHJnt
+      position: {x: -0.10048245, y: 0.00000032424927, z: 0.0000003528595}
+      rotation: {x: 0.000000021260123, y: 0.00000006885971, z: -0.0000006556508, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: XenosBiped_TailEnd_SHJnt
+      parentName: XenosBiped_Tail24_SHJnt
+      position: {x: -0.10048186, y: -0.00000032424927, z: 0.00000032424927}
+      rotation: {x: -0.0000000029102813, y: -0.000000031897823, z: 0.000000059604638, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999996}
+    - name: XenosBiped_TailBlade_SHJnt
+      parentName: XenosBiped_TailEnd_SHJnt
+      position: {x: 0.000000017881392, y: 0.000000076293944, z: -0.000000095367426}
+      rotation: {x: -0.000000025917027, y: 0.000000024156071, z: -0.0000001490116, w: 1}
+      scale: {x: 1, y: 1.0000019, z: 0.9999985}
+    - name: XenosBiped_TailBlade_SHJnt_end
+      parentName: XenosBiped_TailBlade_SHJnt
+      position: {x: -0, y: 0.010741345, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
