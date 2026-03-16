@@ -3,7 +3,17 @@ guid: 94be0f5e8055ded409762729fa0cd0ac
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolts
+    second: {fileID: 2100000, guid: 51c9b16e174863f4880453f17cde4f3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EveeMaterial
+    second: {fileID: 2100000, guid: 3c385e9b7131d21458705a89cf62c9d1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
