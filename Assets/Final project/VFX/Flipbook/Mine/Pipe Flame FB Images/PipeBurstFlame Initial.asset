@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4301457374233176397
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ProcessorInfo
+  Enabled: 1
+  Settings: {fileID: 8722790274881212306}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: PipeBurstFlame Initial
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ImageSequence
+  inputFrameGUIDs:
+  - 9427a651290e33b4697d6636206cf958
+  - e7d17694084510641841cdfd825cbbf3
+  - bacf6d7e7719da744b1bd79138e338d7
+  - 194802d4c6f10e846ab6f9e9631fae90
+  - 57410f13d3c19f844b056496ba44d838
+  - 9867800494a66144b9f4ae81895c90c6
+  - 2a6f02d24f3fd1942800a8222622b13c
+  - f9fa291d41f9a8b4d9c23bf5e9eaa5f5
+  - 872f8ad2287ed28439ec125a4e33d22a
+  - b6b266cd972079048815d0683e6e2c55
+  - 16a1545941e1a744dbf6ccd9d08e6c02
+  - fdb2617329ed95141b67a2a76ced8ab3
+  - f9de4f6ad00d7b24ea851aaca430b39b
+  - ca362f763dc757f4c8741aaadfb982ad
+  - 4a03e5575779a26478cf338dd135c916
+  - e29f4840e20532a44b748b43ba2a47ab
+  - fc7937437669d754c8372dbc2d026707
+  - 01e721083f6a67f4b8bb8459e1bdbb53
+  - 2d8330153ecd14b4cab57ac5138c7cdf
+  - 279be172f7c147943b6bb98ac7b8c59a
+  - 9a56419908416af4ca80d8c3927f251a
+  - a9d7b1fda862b024b936cd6a2f4e7175
+  - 6ab5815e5dc40904abb1fb91f9e9a0d4
+  - 118152ce1933ac0408c29ba0300e4546
+  - 2b30be8fa7fd06a4b80da1098f89135c
+  - 9dd8443e5b52ef646a8e8dd437a197e7
+  - 078aa6ce9cfb6de4781ba537d7ef2d0c
+  - 534dfe5a1417a1747929a8e96d949ebf
+  - 0e1c4485fb39f8b4da4acce4aa03f80f
+  - acbe39c0c30937f479cfafcccab7d2a5
+  - 5388ee20d6bc74441b93976fca3e631f
+  - 3d7d41ed85c25104c9ad3175f7b25fec
+  - 4f7a836da612f824687edf80f13dce2e
+  - b713d2d66d5669d41b6547b73ba25397
+  - efbbe6dcc900cf9468d9235f10d0f2ab
+  - af37e115ec7f78a40ac0ee408f4e4c81
+  - bbfef757dcfade84496458515b224ac9
+  - b951c13b21842134981fff66ace79a14
+  - 1cec21d8cac85a94db1dc4a8f8d103b5
+  - 05cfacf14f11b7243ae7a7e0b7771bb7
+  - 4c8cfc1aaa2ca744f9ae3b34dccd9cc3
+  - dd273e4ddb25c99439fb5704b4c6c6df
+  - 3871ac330c425e6488caf1199cbfa31d
+  - 99b53207ef2b9e44abb6bb4a84ed3c53
+  - 220ab2a72095d904ca44e00bb32adb87
+  - 2192bf07e7abc8d4aa8989b462e12b34
+  - 7a3023967a1a8cb4294caec4e917fe60
+  - 28efa0490c7f1924da0075794507c665
+  - 26f938774cc6a954f8ecd6e0db225552
+  - 55eb94a77cd3aa94fa429ea0a87a73e6
+  - 8051a01990b71c44586c8cf81827e438
+  - 221a7da2f11099242937c7c07fca4be7
+  - 548dd10d01ce07542af26e35f19ca7b2
+  - 6ddd6df706e2513449af80354b09614a
+  - bca9bb8d543d7ca41bec3d736734719e
+  - 0c71273ad52570c439e2253021b4388c
+  - da98502f3a366794f958a6ec32f78d8a
+  - 5cda9b471367dd84791fb702aa4b328f
+  - f8418bf3d44d95945b20e4b29d3f19fd
+  - 3032222568469824d96f2ff99e503fed
+  - acd01d060f3e6f649b65d2b4e48c023d
+  - 83141ebb434cfeb40808d433f3889cfd
+  - f69cb6883abc83f449c98b2b56a980af
+  - 5491cad3f5320a840abeb15693435ed0
+  - ee53ecfdf5da5564ab16520321a6dade
+  - 476dfbf99e25a554ab8fdf55ebdf242d
+  - ad01968710115c242823dfa054beca95
+  - 1f1cba983cd5d664dae957e2965daae2
+  - fdfc7341f2dddbb4aaa8728154da6907
+  - 4abf99b09a87ab3479c9a72ebbbcb35c
+  - b8f89e721d047b94ba33fc71b45dbd2d
+  - 5b126a47c040e11438f6184e3ff86585
+  - dba80be70ea81a841b8563c39eb00f8c
+  - 9757d1f02bab4b348b1c960a47d8271d
+  - a998c369cb276c64fa474cb4a4a90e04
+  - 4d5b5741b5220a7438a505ebf5ae6d32
+  - 13cb657a87c4f9e478544c2574e752e5
+  - 65f42e8cbd054464a9a40ef9badba9a9
+  - 58c7a57990b5355489a7e8d74025374a
+  - db606de3bb78f2646aaa84c7fcae64fe
+  - 09ab0feeac300e344ae43096c253f3fa
+  - 478ceee1a6cd746419b894d3a2f481ce
+  - 088b19830e6717f4ba38b7191ecbe34a
+  - 53bdbc6dcb5de254cba514841f1e1de1
+  - c212416116cadf64ca88ffbcc1446b4e
+  - 4f2847736e16d1440b3057a59612c0c8
+  - e8ca69e4d2c142d44948dea8322d3d47
+  - 91ce223c1afb13a4c80e0867ab7de74a
+  - 9bf7a144a0279cc45801ba48886d71e4
+  - e8d1489fc9e6c654390c1322c1d8cfdf
+  - 31c9a18ab22bfa1488675eba1fff66f9
+  - 5837e7fd2d651da40ac8e068fc737122
+  - 83beceaea7c287e47b7591a2c392c492
+  - a8b39eef42957dd4a86bbf414a0460c6
+  - 546805e9de28eb54db7beff14d326019
+  - 0f6e5200a78314d4da468458d636efad
+  - 2863eba2bdb10fc439a78ef0aee88082
+  - ac2beeb76db2f7d498020798b20dbc04
+  - 4f316e196166efc47b91f298f8d1f16d
+  - 4f91b9e8b66f9e74b9110ea156ccd9ac
+  - e4b9c910a52280848a6dc3c093451c13
+  - 5756420a577955744a78cd454e392f98
+  - ef3b854c42965f846b388e0d56cc0441
+  - dfbd776ff09094948af17c29ce6134b5
+  - 649d6fe74154eaa47a89ab06a06acfa3
+  - f5a087213079cfb4288043979b191c67
+  - d5d1c8c76571f8944bcd51f82c028d89
+  - a2ea3a38d3fcccf48a250027a82314f7
+  - dc021b7cd10d0014f98cb41c457c8470
+  - 63e0f51f3630aab4f9ed631492f71ece
+  - b12b076d9c6b5144ba9f9d6b60c57639
+  - 36af078ecc49af14b8cceaf7b112ee1c
+  - c92e71034462c254ca11e5738afed355
+  - 48e846ed83f70844bb5ca449c46a5970
+  - 776fc4c17c3ea4f4e82ed4f1649c6643
+  - 2e098a1fdb62a7a4aa73a59b8d10a44d
+  - 4e49787430c960e478610472665ae259
+  - 643231c67ca0a0c4a91422c814823df3
+  - 45ea98b4d4a9a5546921d27d88d2cd0a
+  - f57d4525bf854fb4abcc34f61084b44c
+  processorInfos:
+  - {fileID: -4301457374233176397}
+  exportSettings:
+    fileName: Assets/Final project/VFX/Flipbook/Mine/Flames/PipeBurstFlame Initial_10x12.tga
+    frameCount: 1
+    outputShape: 0
+    exportMode: 0
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &8722790274881212306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.AssembleProcessor
+  FlipbookNumU: 10
+  FlipbookNumV: 12
+  Mode: 0

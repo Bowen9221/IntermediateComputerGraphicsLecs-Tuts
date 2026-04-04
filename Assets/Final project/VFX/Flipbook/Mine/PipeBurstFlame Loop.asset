@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3022859684690261924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ProcessorInfo
+  Enabled: 1
+  Settings: {fileID: -2317041789535840518}
+--- !u!114 &-2317041789535840518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.AssembleProcessor
+  FlipbookNumU: 8
+  FlipbookNumV: 5
+  Mode: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: PipeBurstFlame Loop
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ImageSequence
+  inputFrameGUIDs:
+  - 5d9cb34c72781e74fa31e054ac35c28d
+  - a5afaf6bb6debfe44a029ea11ab474cc
+  - cc8ccf44bd34e74409758fa00f51842c
+  - 7e262f3547aa84e4187fb6e40b0abc5f
+  - 3a52daeea13768842b0db0a37b816c53
+  - aed46a154233e9246922937f5cbdd052
+  - d60d6d7cd5c28264c916feb813f9b335
+  - 59a024f3c1e05ea41a262829398cb98e
+  - 826ad264fccd064408616ffecee06136
+  - b726229a81d2f8149bce720b59316a37
+  - 0a0b963cf77279a4a8f3fa043687c1e6
+  - 54964ff32ba5e334f9a5f2c6747cc50e
+  - 37335f5e5c6fcb94e85aeb9e6459e1a6
+  - ba976b761971d504989ba4e72314f894
+  - 235bfd24ce6aa7644b5d1aef519bce22
+  - a21a14ea0a8cac645acf3f864e96f703
+  - 101db015fd1428b4e94e914ef5179423
+  - fdbe896cd367f254eb27505f2888acd4
+  - 705aa296c57f1894c9cc9d12e6c53804
+  - cf60c42785ce3e649a292e60ce15f83d
+  - c820df98cc18f3442adfaa38a8008a74
+  - 2c8ba3c62ef55ed41bde880cdf0a46bb
+  - 603769d24b504c4488863902cef413d6
+  - 90e2814fbbe07e64a8cfc98e3614c83a
+  - 84ffcf02186669343aecf2d76945a24f
+  - 8f1d04d2db90916429ec6bbf2f20bf5a
+  - 43f45ebce45851144a686911798fe1d1
+  - e9141575c8c074d48a3fcf990faa2dcc
+  - 9c6d362ee34b72f4ea01f966a8f90e70
+  - eaede15f640e2f541bf2351270823c68
+  - a9631d03e00e69a44bd86f01c5edddd2
+  - d908ce0c14f535f4e8c7d8ab49339755
+  - a638951aa5dc2db47b7b84125bf87e58
+  - fe760678a781f0143bee708b8f2ce775
+  - a2c5e5ef99d4e5d42a424080c5f636e5
+  - 867a5f8ddc0ed7f46846218d91842d68
+  - 4454e67fa4693e94b8982a97166a5043
+  - edb959ee63f699b40b8ce5f56cd23735
+  - 5ae2f54f18c81e34c94b5e8aad6f42e4
+  - dae983bbae22f3744bccc7f0fc27159f
+  processorInfos:
+  - {fileID: -3022859684690261924}
+  exportSettings:
+    fileName: Assets/Final project/VFX/Flipbook/Mine/PipeBurstFlame Loop_8x5.tga
+    frameCount: 1
+    outputShape: 0
+    exportMode: 0
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: -1
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}

@@ -1,0 +1,83 @@
+fileFormatVersion: 2
+guid: c70f4d57d53bdfb48a17eb6e451b01f6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell/Circle_024__3__cell_045:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_001/Circle_024__3__cell_046:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_002/Circle_024__3__cell_035:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_003/Circle_024__3__cell_038:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_004/Circle_024__3__cell_039:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_007/Circle_024__3__cell_040:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_008/Circle_024__3__cell_041:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_009/Circle_024__3__cell_042:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Circle_024__3__cell_010/Circle_024__3__cell_043:000:'
+    second: {fileID: 2100000, guid: 73639ad64adc02f4e94e4a2aaff6c911, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f53f5fc499d31e44b9deee84d28a9ee8, type: 3}
+  rootGameObjectId: 
+  rootGameObjectName: 
+  importerVersion: 1
+  streamSettings:
+    normals: 1
+    tangents: 1
+    cameraAspectRatio: 2
+    importVisibility: 1
+    scaleFactor: 0.01
+    swapHandedness: 1
+    flipFaces: 0
+    interpolateSamples: 1
+    importPointPolygon: 1
+    importLinePolygon: 1
+    importTrianglePolygon: 1
+    importXform: 1
+    importCameras: 1
+    importMeshes: 1
+    importPoints: 0
+    importCurves: 1
+    createCurveRenderers: 0
+  abcStartTime: 0.03333333333333333
+  abcEndTime: 8.333333333333334
+  startTime: 0.03333333333333333
+  endTime: 8.333333333333334
+  importWarning: 
+  firstImport: 0
+  isHDF5: 0

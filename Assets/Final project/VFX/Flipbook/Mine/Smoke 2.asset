@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7686489714739868071
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ProcessorInfo
+  Enabled: 1
+  Settings: {fileID: 1146373393040957914}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: Smoke 2
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ImageSequence
+  inputFrameGUIDs:
+  - 9dccf2a1992083e439b7dabde407e3b5
+  - a5a5fbe695e41a7418d359d8b3526581
+  - 568ae7ecfda472d4ea6675bba795d02e
+  - 7a66da2b172254e449e1a7548e10f0ed
+  - 98309036dca261446936766ee78d8081
+  - 1394157bfa069044d959615386806e45
+  - 281f47f53cf4390409059a8ca708f04c
+  - 2f0c5fb4d11296346a38943e26e04b4b
+  - 8417cc0429ad19440896cda5ceb3c636
+  - dccb4d02fbb4e6d4886c93a5e6e9f6dd
+  - 25a753bf9023e4a42a0cfa5012526e11
+  - c4551ca2a4c5a024f89ccc6fadbef3c8
+  - 8927301fd81e9f043ba5530c66a2f7ff
+  - e8563697e8ac2aa4fbe6909516198a98
+  - a52ac938d16fe82408cd7abacd4757eb
+  - e094670a37cae604a98b031927db8742
+  - d258cc5858f564f41ab93e206b0c8f62
+  - 0c8bec9a79fa6c547aa24532dcd74813
+  - 02a6a77012c298142851a80a9b1c0798
+  - d85e48368d8225f42a2ea28d032ce2cf
+  - d12babb4200947049a694548c1a78606
+  processorInfos:
+  - {fileID: -7686489714739868071}
+  exportSettings:
+    fileName: Assets/Final project/VFX/Flipbook/Mine/Smoke 2_7x3.tga
+    frameCount: 1
+    outputShape: 0
+    exportMode: 0
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &1146373393040957914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.AssembleProcessor
+  FlipbookNumU: 7
+  FlipbookNumV: 3
+  Mode: 0
