@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8069907455181879518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ProcessorInfo
+  Enabled: 1
+  Settings: {fileID: -5727560553662168996}
+--- !u!114 &-5727560553662168996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.AssembleProcessor
+  FlipbookNumU: 10
+  FlipbookNumV: 15
+  Mode: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: FlameBurst
+  m_EditorClassIdentifier: Unity.VFXToolbox.Editor::UnityEditor.Experimental.VFX.Toolbox.ImageSequencer.ImageSequence
+  inputFrameGUIDs:
+  - 167e34c12a4493945bed7108601a2b42
+  - 045d211bb1cd3974cb35f73f2e00d7a3
+  - f46c239028e04e64b9bbe0330d9ac9d0
+  - 95378ad1c331a5944801488f1d3135d8
+  - baee02f021331a246aa305c259807f8d
+  - c2ae26fbdc5b381469ab12014635e435
+  - ad60bc62c788d42458c04665131c6e7a
+  - d991fb32e7b852741a0e9af7e0927c4f
+  - c098db0d1f049374e828446e8ad3574f
+  - 9dd8055866197b540b24b2b00fdbfd2b
+  - 7dc2856f2e9e85a4f99f7ab776642edb
+  - b2f60e8439030fc4587b81ca1bebfac7
+  - 3e3f957ab5fc9dd4887bb86310e21698
+  - 264e6fc5fcacfc448856887d9e81aa75
+  - 3ae37c0f01ac19845b4536b0c7656806
+  - ebaf66e42bd100a4d9b447fa5f0c46e1
+  - 8b21aebd3ed4db6459ef72ff3c27ee0c
+  - bc49279532607ff4c9a5c430fe09ae00
+  - 57529cb1637d67144a7696692e3e321a
+  - 87c57d818bdd2964f9a63a2757bcab99
+  - ca1865c3db687ef41961e74f7921c230
+  - 987e86e1228fabf4cada95b806651ccb
+  - 6255629a93e7cbf44a9f8a75d38a7458
+  - ef832d6159929cb439f401ff7e7a1ab9
+  - dc28524ba099d1445af8db82e43b59f5
+  - 7bb6904b46b3ff04daa2412ba9162a84
+  - 5ab320cf2b017d94cb2dcbc9d9988736
+  - 83d65ad26668668489df9ff12db5b94e
+  - 63df749479948914b8af63d5c88b377f
+  - b32a47c962ec02f4dad78dcc7af0c288
+  - 8deb3bb978f2aec45b838bbca0d6ff74
+  - 825bb16010717e941b036bf2c2d2a8e0
+  - e240e562445cb5747acadfdc48b9b8b7
+  - f224aac5093187b4f87e118829a0405b
+  - 87c71130a5a4dd140af516aaf1add0e0
+  - 3bf96808793cf5f4cadb4aae47b8e70c
+  - 2993ad33d26c7cb44aab21b0237eaa86
+  - 1f84ec2922abfdd4fae51f9992df9443
+  - d5af06fca2c311a4e85bfde19b4767fe
+  - 5360687ba1d4789418236c70a35afaf0
+  - 2b097ae4d6dc1cf40ab5b1e5f27358a1
+  - 2eaba3fb94aea564c883889bd9722a13
+  - dcebdba63c19dd74981ba32a7009f160
+  - cd562acb05127014aa0a0e4c8c383189
+  - bda6b77e537884840aa74787846b5952
+  - ba97a46e7d35ff7489195c1d262f3a58
+  - 96193cc037aecfe489319e823179bf5f
+  - 8f624e68913733746bf346b58d6ea492
+  - 6d49de8d86757b74c931237d529a48b4
+  - 75495933932e42e42bdbcf3fbc916d11
+  - 4bbd0dc266bb6be40865636748b5d8e6
+  - d399f63d168303143b841af2d435db36
+  - 9f9df35aad6f7074aa4694247d8c0cce
+  - 578045d6a9613bf45a284eb3fd20a7d9
+  - c9cbc1b38f299c8489e38dbff2cfe6a8
+  - 8a4774a495f37ba47b2131a3d6b746fa
+  - 24d13d7271ecd0a42aff8c9998f588fa
+  - fd295dca46bf574428fc7a21672c4845
+  - 79dc90f948c7cc74c907e70469d4fe90
+  - 3d50c26b214524644abbfd9d3359bd8a
+  - 1fb17f75dedb47a428bc1e1790cb854d
+  - ec48f55d2a8a16442b70941ba8a7ffbd
+  - 7b170b695edeffd48bcc02ea53484648
+  - b431b005ac2908743baea34c8a2faedf
+  - c773f747c28f01c40adddb3de46edc14
+  - 493bac983d019c2468dfddb6ac1f5ca1
+  - acdc0912ca6d36c4fad05dc1f88b78f9
+  - 59b4f8e6f55e1ca438a139d97058275c
+  - dea46020ca1dbc046b621e070acc716e
+  - 01e10d3288f1bed42b6ed111ea027fae
+  - e6bd914d447d94647b608fb22b1c7fd0
+  - b7e6d5070fd56f540b7a85f599f8e9d1
+  - 999157acc2f47fc44a72e81206e570a9
+  - 7f0050a093824ca47ae7a23f52b89f45
+  - 161bc871819e13948b59bb6083d5ab1b
+  - aff5bea05bdd6114298c5618eb3048e4
+  - 022b8ab21b2228549a806f8cb3ed3bb6
+  - eab429779cd4b4a4d805bb7686f7d7b4
+  - 0c1b3018c89aa33418cd962db8c44706
+  - 07b95988dc642fc4db5deaf3625519ca
+  - 768efaf9d2883264591e2427e205e8aa
+  - ac21f9be7ee12b04ea2745fc0d2c0629
+  - d1158b486ade826419aa6599ff178075
+  - 938ac7aa00be95646a0fc5e25843fe61
+  - c40b8a2cf719e4d429f4f5971d200f0c
+  - 6724d978c40439242b6277d3a671de3b
+  - 3ab1ba4630d10304c87e28b3efe5059b
+  - f3a182741e3cf7d48aaf8037a1569670
+  - 0a5d539f423b71a4696ca01488ca0b14
+  - f0735cba34d62dd459e7ea575ed33f06
+  - 6481fc1e9d1ff5e4cbdeeff19e0d963f
+  - 4cda031e14c2da94b8f862c4288cfa2a
+  - ca130adbc5f108b4fa32ac2e2b05be38
+  - d3ac6fe3272418146b1ec75e1a5cfff3
+  - de013b1d086fe4249a843708b15174b3
+  - 08b669647b77ffd4ca180b216e618d31
+  - e78fdc52be49c4b40a955f5f5c7a363e
+  - 3a9daf7b10362444182b16638fe7f8fa
+  - 58dd970a905dbc44bb50a439c4cff629
+  - 7d2046aaa48e2354287309c5c1df0962
+  - 1f0830ca68760914c8472751831ab1fb
+  - 0314716efd6c5c144a281df48abbeb8a
+  - a73e14f9272870e479e05661513d6d73
+  - fa71bf79990f5804d9ce17406e237b45
+  - 98f9ea1fb92b41241a30c979cacb6ed5
+  - a650a901555cc6b4c9d7a78258d3eb97
+  - 1edc3d70567929e429da1e4897f8e194
+  - a1e60546ebf794141ae9e55374c90916
+  - dcbb7ec0a392b6f4eb48b5bd63ff55ba
+  - e6001d12abefa2a42b521e8c7d17ff43
+  - 08d418b15c847ae458111ada59b277da
+  - 7c7fdb41f696d1a4f993c2d34fb9d5e3
+  - b1604325f737a6246869ca042cb12099
+  - 46f0bb93ef6d5f747862897459dcb639
+  - 6f48768299c27934b8441fb3122a7e25
+  - 1264af1c62c332840aa69acf4c6f8677
+  - d8fcea4d2fade044d9dd017941f51711
+  - 623604a0374ea6b4baa8ff3753d4a475
+  - bc2f317f70bf53c4aaf6951d684de5c5
+  - 744fd668ac2671546ad5ef2c8ea8b524
+  - d037c8c65248ed641be41eb1982fa60e
+  - e4fd587f826e28f40a5aaa91974e2686
+  - f7f8e1312500b5446a26df9cedf7602b
+  - 00ff728cb1e48a749aeac5131cf40998
+  - 70e96adc4b790e143b7fa4334f0d65c0
+  - 84929f5b29e40904fb0e5d13afd1f719
+  - 1b63ec794aadd2944aeb954e44c46661
+  - 514a673bca6ea1f4aabae34a3de1c0d9
+  - f30acb2c74551534990d22148ae926d4
+  - d05e02ce70b2fff43b09e3160a2f9882
+  - a4f568f0a4de1604984d6c1911d2e9c5
+  - 1fa454a6744e4b34d8665dcdf0496050
+  - be6cd01cda3d78d4eb2110f97a757900
+  - 08615c60d3efd574a8eb386b4cbe8313
+  - 044235c2a49d99d44bd0288f4d348a1f
+  - ef88dec36d195164e94b78fe1db7881e
+  - 5289bd2d4b8b02c4c9dbf91d6c120866
+  - 468d5474cafcf604bacc4eb0d42aa3b0
+  - 13bf6e4cf5b887143882bcb8dfddcae2
+  - 5036507710d226f47b06a5547e0ebed7
+  - 510682ad8f695734084711e73bdb57d7
+  - 57aae45e15226804a9e772ced27931bb
+  - 4d8130210b619da44b92ba916da39e4e
+  - fb36aa39d517f144bb307cfd42aa88b4
+  - 5d815900a6ddc5e44b3e45b365bdceb5
+  - 2aedadb0ce1371a42a01a05559e14eeb
+  - ad3ea2982628c9a4fbd67bcfad4865cf
+  - 6a71c5685570de9418fdeeb942ccfb6e
+  - 4fd0056b38ea4cd409b4e0e5aefbe918
+  - 9c7c2d3f92bcfbe4197c8e9e93a35c50
+  processorInfos:
+  - {fileID: -8069907455181879518}
+  exportSettings:
+    fileName: Assets/Final project/VFX/Flipbook/Mine/FlameBurst/FlameBurst_10x15.tga
+    frameCount: 1
+    outputShape: 0
+    exportMode: 0
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}

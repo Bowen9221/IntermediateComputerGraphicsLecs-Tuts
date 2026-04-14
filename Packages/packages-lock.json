@@ -224,6 +224,17 @@
         "com.unity.formats.fbx": "5.1.4"
       }
     },
+    "com.unity.film-internal-utilities": {
+      "version": "0.19.3-preview",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.2.18",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.formats.alembic": {
       "version": "2.4.4",
       "depth": 0,
@@ -275,6 +286,16 @@
         "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.material-switch": {
+      "version": "file:com.unity.material-switch",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.film-internal-utilities": "0.18.4-preview",
+        "com.unity.selection-groups": "0.8.0-preview",
+        "com.unity.timeline": "1.5.7"
+      }
     },
     "com.unity.mathematics": {
       "version": "1.3.3",
@@ -353,6 +374,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.selection-groups": {
+      "version": "0.10.1-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.film-internal-utilities": "0.19.3-preview"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
