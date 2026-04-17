@@ -73,12 +73,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661616218}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661616268}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661616275}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661616324}
       id: 0
       isStickyNote: 0
@@ -492,7 +486,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.0,"y":0.13275237381458283,"z":-166.10000610351563}'
+      m_SerializableObject: '{"x":0.25881898403167727,"y":0.0007361109601333737,"z":-0.9659255743026733}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1539,9 +1533,7 @@ MonoBehaviour:
   m_Label: Spawn system
   m_Data: {fileID: 8926484042661614702}
   m_InputFlowSlot:
-  - link:
-    - context: {fileID: 8926484042661616037}
-      slotIndex: 0
+  - link: []
   - link: []
   m_OutputFlowSlot:
   - link:
@@ -2176,7 +2168,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1.5
+      m_SerializableObject: 0
     m_Space: -1
   m_Property:
     name: LoopDuration
@@ -3571,7 +3563,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"direction":{"x":0.0,"y":0.13275237381458283,"z":-166.10000610351563}}'
+      m_SerializableObject: '{"direction":{"x":0.25881898403167727,"y":0.0007361109601333737,"z":-0.9659255743026733}}'
     m_Space: 0
   m_Property:
     name: o
@@ -17809,8 +17801,6 @@ MonoBehaviour:
   m_OutputFlowSlot:
   - link:
     - context: {fileID: 8926484042661615684}
-      slotIndex: 0
-    - context: {fileID: 8926484042661614700}
       slotIndex: 0
     - context: {fileID: 8926484042661616153}
       slotIndex: 0
